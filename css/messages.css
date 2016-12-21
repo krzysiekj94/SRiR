@@ -1,0 +1,9 @@
+#page-wrap{
+	min-height: 200px;
+	background-color: aqua;
+}
+
+#historyContent{
+	max-height: 300px;
+	overflow-y: scroll; 
+}
