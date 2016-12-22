@@ -1,3 +1,8 @@
+<?php
+include '../../storage_srir/database/db.php';
+include '../../storage_srir/classes/manager_const.php';
+?>
+
 <header>
 	<div class="jumbotron" style="background-color: ;">
 		<div class="container header-text">
@@ -23,16 +28,7 @@
 							<a class="nav-link">Witaj '.$login.'</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="index.php">Strona główna</a>
-						</li>
-				  		<li class="nav-item">
-							<a class="nav-link" href="profile.php">Profil</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="messages.php">Wiadomości</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="friends.php">Znajomi</a>
+							<a class="nav-link" href="index.php">Komunikator</a>
 						</li>
 						<li class="nav-item">
 							<a class="nav-link" href="logout.php">Wyloguj</a>

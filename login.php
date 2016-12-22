@@ -20,6 +20,7 @@
 <?php include 'header.php'; ?>
 <div class="container main-panel">
 	<div class="row">
+  <?php include 'sidebar.php'; ?>
   <div class="content col-md-4 col-lg-4 col-md-offset-4 col-lg-offset-4">
   <form class="form-register" onsubmit="return myOnSubmit(this);" action="login_redirect.php" method="POST">
   <div class="form-group">
